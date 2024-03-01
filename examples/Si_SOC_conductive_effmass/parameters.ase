@@ -1,0 +1,11 @@
+dict(empty_states=50,
+     hse_unit='bohr-1',
+     include_spin_orbit='',
+     k_grid=[18, 18, 18],
+     output=['soc_eigenvalues'],
+     relativistic='atomic_zora scalar',
+     sc_accuracy_rho=1e-06,
+     sc_init_iter=200,
+     species_dir='/u/yiy/scratch/aims/FHIaims/species_defaults/defaults_2020/intermediate_tight',
+     walltime=40000.0,
+     xc='hse06 0.11')
