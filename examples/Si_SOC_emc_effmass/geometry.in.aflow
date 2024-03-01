@@ -1,0 +1,24 @@
+#=======================================================
+# FHI-aims file: struct_dir/mp-149/geometry.in.aflow
+# Created using the Atomic Simulation Environment (ASE)
+# Fri Apr  7 23:09:31 2023
+
+# Additional information:
+# Si/A_cF8_227_a.A params=5.4437 SG=227 [ANRL doi: 10.1016/j.commatsci.2017.01.017 (part 1), doi: 10.1016/j.commatsci.2018.10.043 (part 2)]
+# With constraints mapped into the unit cell using the aflow_structure_wrapper utility in FHI-aims
+#=======================================================
+lattice_vector 0.0000000000000000 2.7218499999999999 2.7218499999999999 
+lattice_vector 2.7218499999999999 0.0000000000000000 2.7218499999999999 
+lattice_vector 2.7218499999999999 2.7218499999999999 0.0000000000000000 
+atom_frac 0.1250000000000000 0.1250000000000000 0.1250000000000000 Si
+atom_frac 0.8750000000000000 0.8750000000000000 0.8750000000000000 Si
+#=======================================================
+# Parametric constraints
+#=======================================================
+symmetry_n_params 1 1 0
+symmetry_params a
+symmetry_lv 0, 0.5*a, 0.5*a
+symmetry_lv 0.5*a, 0, 0.5*a
+symmetry_lv 0.5*a, 0.5*a, 0
+symmetry_frac 0.125, 0.125, 0.125
+symmetry_frac 0.875, 0.875, 0.875
