@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boltztrap2_aims_utils"
+version = "1.0"
+description = "pymatgen Boltztrap2 interface with FHI-aims"
+authors = [{name = "Yi Yao", email = "yaoyi92@gmail.com"}]
+license = {text = "GNUv3"}
+urls = {Homepage = "https://github.com/yaoyi92/boltztrap2_aims_utils"}
+dependencies = [
+    "numpy",
+    "BoltzTrap2",
+    "pymatgen"
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.setuptools]
+include-package-data = false
